@@ -29,7 +29,6 @@
 	<?php //var_dump($execute); 
 	?>
 </head>
-
 <body>
 	<div id="contenedor">
 		<div class="banner">
@@ -49,11 +48,9 @@
 			</nav>
 		</div>
 		<!--banner-->
-
 		<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div>
-
 		<div id="main2">
-			<div class="centro2" style="background-color:#e3cfb5; <!--font-family:Arial, Helvetica, sans-serif; font-size:25px;-->">
+			<div class="centro2" style="background-color:#e3cfb5;">
 				<!--style="font-family:Arial, Helvetica, sans-serif; background-color: #aaa;"-->
 
 				<img src="../images/imagenes/topcentral.png" alt="" />
@@ -76,13 +73,6 @@
 					$datog2 = $datog2;
 				}
 				?>
-
-
-
-
-
-
-
 				<?php if (isset($datog2["clan"]["members"])) {
 					$mienbrospk = $datog2["clan"]["members"];
 				}
@@ -111,13 +101,7 @@
 								</td>
 							</tr>
 						</table>
-
-
-
-
-
-
-						<?php echo	"<table  >";
+					<?php echo	"<table  >";
 						if (isset($datog2["state"])) {
 							$estadog2 = $datog2["state"];
 							switch ($estadog2) {
@@ -140,12 +124,9 @@
 										$inicio = $hie . "" . $ii/*."".$si*/;
 										$iniciou = $hiu . "" . $ii/*."".$si*/;
 										$iniciom = $him . "" . $ii/*."".$si*/;
-
-
-										$esp = "esp";
+									$esp = "esp";
 										$usa = "usa";
 										$mex = "mex";
-
 										echo '<img src="../images/iconos/' . $esp . '.png" ; />';
 										$horae = DateTime::createFromFormat('Hi', $inicio);
 										echo $horae->format('H:i ');
@@ -186,20 +167,15 @@
 										$final = $hfe . "" . $if/*."".$si*/;
 										$finalu = $hfu . "" . $if/*."".$si*/;
 										$finalm = $hfm . "" . $if/*."".$si*/;
-
 										$esp = "esp";
 										$usa = "usa";
 										$mex = "mex";
-
 										echo '<img src="../images/iconos/' . $esp . '.png" ; />';
 										$horaef = DateTime::createFromFormat('Hi', $final);
 										echo $horaef->format('H:i ');
-
-
 										echo '<img src="../images/iconos/' . $usa . '.png" ; />';
 										$horauf = DateTime::createFromFormat('Hi', $finalu);
 										echo $horauf->format('H:i ');
-
 										echo '<img src="../images/iconos/' . $mex . '.png" ; />';
 										$horamf = DateTime::createFromFormat('Hi', $finalm);
 										echo $horamf->format('H:i ');
@@ -230,20 +206,7 @@
 						</table>
 					</div>
 					<!--wari--> <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-					<!-- participantes pekes-->
+			<!-- participantes pekes-->
 					<div id="guerra">
 						<div class="warp">
 
