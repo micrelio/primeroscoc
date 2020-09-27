@@ -1,8 +1,5 @@
-
-
 <!-- var_dump($datocg); para ver lo que devuelve un array -->
 <!-- PRIMEROS:#8VVJCY9R-->
-
 <?php
 	$clantag = "#8VVJCY9R";
 	$token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg";
@@ -22,13 +19,7 @@
 		$errormsg = true;
 		}
 	?>	 
-
-
-
-
-
 <!-- PRIMEROS GUERRA ACTUAL-->
-
  <?php
 // Replace with the token you get from the site, see more at http://jwt.io
 	$accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg';
@@ -51,12 +42,9 @@
 	if (isset($datog["reason"])) {
 		$errormsg = true;
 		}
-	
 	//echo $datog[""];
 	// no se porque da error ahora $ataquesp = $mienbrosp["attacks"];
 ?> 
-
-
 <!-- PRIMEROS REGISTRO GUERRA-->
 <?php
 	// Replace with the token you get from the site, see more at http://jwt.io
@@ -83,9 +71,6 @@
 	//$mienbrose = $datocg["opponent"]["members"];
 	//echo $datocg[""];
 ?> 
-
-
-
 <!-- PEKEPRIMEROS :#RCOLLOQ8-->		 
 <?php
 	$clantag = "#RCOLLOQ8";
@@ -105,13 +90,10 @@
 	if (isset($dato2["reason"])) {
 	$errormsg = true;
 	}
-	
-	if(isset($dato2["memberList"])){$mienbros2 = $dato2["memberList"];}
+		if(isset($dato2["memberList"])){$mienbros2 = $dato2["memberList"];}
 ?>
-
 <!-- PEKEPRIMEROS GUERRA ACTUAL-->	
 <?php
-	
 	date_default_timezone_set('Europe/Amsterdam');
 	// Replace with the token you get from the site, see more at http://jwt.io
 	$accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg';
@@ -133,10 +115,6 @@
 	curl_close($ch);
 	if (isset($datog2["reason"])) {
 		$errormsg = true;}
-	 
-	 
-	//echo $datog2[""];
+//echo $datog2[""];
 	// no se porque da error ahora $ataquespk = $datog2["clan"]["members"]["attacks"];
-
 ?> 
-

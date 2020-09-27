@@ -81,7 +81,7 @@ $(function() {
 	<div class="contenido">
 		<div id="left">
 			<div class="inner">
-				<img src="web/imagenes/imagenes/toplaterales.png" alt="" />
+				<img src="web/images/imagenes/toplaterales.png" alt="" />
 					<div >
 						<img src="web/images/imagenes/escudo.png"/ >		
 					</div>
