@@ -1,90 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<meta name="googlebot" content="noindex">
-<meta name="robots" content="noindex">
-<title>*primeros*</title>
-<link rel="stylesheet" href="../style/style.css" media="screen" />
-<link rel="icon" href="../images/imagenes/escudo.png" />
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-<meta property="og:url" content="https://primeroscoc.com/">
-<meta property="og:site_name" content="CLAN PRIMEROS | Clash of Clans">
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="../funciones/funciones.js"></script>
-<?php include('funciones/funciones.php'); ?>
-
-
-<script>
-$(function() {
-    var pull = $('#pull');
-    menu = $('nav ul');
-    menuHeight = menu.height();
-	$(pull).on('click', function(e) {
-		e.preventDefault();
-        menu.slideToggle();
-	});
-});
-</script>
-    
-    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<meta name="googlebot" content="noindex">
+	<meta name="robots" content="noindex">
+	<title>*primeros*</title>
+	<link rel="stylesheet" href="../style/style.css" media="screen" />
+	<link rel="icon" href="../images/imagenes/escudo.png" />
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<meta property="og:url" content="https://primeroscoc.com/">
+	<meta property="og:site_name" content="CLAN PRIMEROS | Clash of Clans">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../funciones/funciones.js"></script>
+	<?php include('funciones/funciones.php'); ?>
+	<script>
+		$(function () {
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
+			$(pull).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+		});
+	</script>
 </head>
+
 <body>
-
-
-
-
-<!--<DIV STYLE="position:absolute;   top:0px; left:-40px;  visibility:visible z-index:1"> 
+	<!--<DIV STYLE="position:absolute;   top:0px; left:-40px;  visibility:visible z-index:1"> 
 <IMG   SRC="images/images/peka.png" width="300px"; height="300px; ";> 
 </div> -->
-
-<div id="contenedor"> 
-
-	
-	<div class="banner">
-		<img src="../images/imagenes/banner.jpg" alt="" />
-	   <nav>
-            <ul>
-                <li><a href="../../index.php" >Bienvenida</a></li>
-		        <li><a href="coliders.html" >Coliders</a></li>
-		        <li><a href="veteranos.html" >Veteranos</a></li>
-				<li><a href="videos.html" >Videos</a></li>
-                <li><a href="familia.php">Familia</a></li>
-				<li><a href="guerras.php">Guerras</a></li>
-				<li><a href="aldeas.html" class="active">Aldeas</a></li>
-                
-			   <br clear="all" />
-           </ul>
-           <a id="pull" href="#">Menu</a>
-        </nav>
-    </div><!--banner-->
-	
-
-	
-	
-	
-	
-	<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div> 
-	
-	
-	<div id="main2">
-		<div class="centro2"style="background-color:#e3cfb5;">
-			<img src="../images/imagenes/topcentral.png" alt="" />
-			
-			<center><img src="../images/imagenes/constructor.png" alt="" style="width:90%;"/>	</center>
-			 <!-- echo $datacg["items"]; ?>	
-				
-				
-				
-				<?php
-
-
-
-
-	
-
+	<div id="contenedor">
+		<div class="banner">
+			<img src="../images/imagenes/banner.jpg" alt="" />
+			<nav>
+				<ul>
+					<li><a href="../../index.php">Bienvenida</a></li>
+					<li><a href="coliders.html">Coliders</a></li>
+					<li><a href="veteranos.html">Veteranos</a></li>
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="familia.php">Familia</a></li>
+					<li><a href="guerras.php">Guerras</a></li>
+					<li><a href="aldeas.html" class="active">Aldeas</a></li>
+					<br clear="all" />
+				</ul>
+				<a id="pull" href="#">Menu</a>
+			</nav>
+		</div>
+		<!--banner-->
+		<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div>
+		<div id="main2">
+			<div class="centro2" style="background-color:#e3cfb5;">
+				<img src="../images/imagenes/topcentral.png" alt="" />
+				<center><img src="../images/imagenes/constructor.png" alt="" style="width:90%;" /> </center>
+				<!-- echo $datacg["items"]; ?>	
+		<?php
 		/*if($logEntry->getResult() == "win")
 		{
 			echo '<font color="green">';
@@ -99,93 +73,59 @@ $(function() {
 		}
 		echo $logEntry->getClanName() . " " . $logEntry->getClanStars() . " - " . $logEntry->getOpponentStars() . " " . $logEntry->getOpponentName() . " </font><br/>";
 	}
-
 else
 {
 	echo "This clan's warlog isn't public, sorry.";
 }
-
-
-				
-				<!--WAR LOG-->
-            
-      
-<!--
+	WAR LOG
 // Replace with the token you get from the site, see more at http://jwt.io
 $accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM3MTk4YTBmLTJjYWUtNDg5Ny1hMTYzLWY3YmY2NjRhNzcxMyIsImlhdCI6MTUwNDA2MDU2NSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjMxLjIyMC4xMDQuMjI4IiwiMzEuMjIwLjEwNC4yMzciXSwidHlwZSI6ImNsaWVudCJ9XX0.VRX2q_orMDifhMl_a0thLdjX4gQlHsX37qxcud7UkVi9mnLTNheQoRnzrLlocMlLJYGxNGJF-EK4lUrYhQD0tg';
-
 //Use the first url to test your Server's IP adress and cURL function
 $url = 'https://ifconfig.io';
 $url = 'https://api.clashofclans.com/v1/clans/%238VVJCY9R/warlog'/*?limit=20 para el limite de gerras mostradas*/;
 $ch = curl_init(htmlspecialchars($url));
-
 $headr = array();
 $headr[] = 'Accept: application/json';
 $headr[] = 'Authorization: Bearer '.$accesstoken;
-
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headr);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
 //$execute = curl_exec($ch);
 //var_dump($execute);
 $res = curl_exec($ch);
 $datacg = json_decode($res, true);
 curl_close($ch);
-
 if (isset($datacg["reason"])) {
 $errormsg = true;
 }
 //$memberse = $datacg["opponent"]["members"];
-
 echo $datacg["items"];
-
 //var_dump($datacg);
-
 -->
-
-      
-           
-				
-				
-				
-		
-<!--	
+				<!--	
 $clantag = "#8VVJCY9R";
-
 $accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM3MTk4YTBmLTJjYWUtNDg5Ny1hMTYzLWY3YmY2NjRhNzcxMyIsImlhdCI6MTUwNDA2MDU2NSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjMxLjIyMC4xMDQuMjI4IiwiMzEuMjIwLjEwNC4yMzciXSwidHlwZSI6ImNsaWVudCJ9XX0.VRX2q_orMDifhMl_a0thLdjX4gQlHsX37qxcud7UkVi9mnLTNheQoRnzrLlocMlLJYGxNGJF-EK4lUrYhQD0tg';
-
-
 $url = "https://api.clashofclans.com/v1/clans/%238VVJCY9R/currentwar" . urlencode($clantag);
 -->
-			
-			<img src="../images/imagenes/bottomcentral.png" alt="" />
-		</div>	<!--centro2-->	
-	</div>	<!--main2-->	
-			
-	
-	
-		
-
-	<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div> 
-	
-	
-	
-	
-
-
-
-	
-</div><!--contenedor-->
-		<div id="pie" >
-			<div id="diseño">
-				<p>Gracias a <a href="https://www.youtube.com/channel/UCAfuTUdmRn0PLtN3uwtIRPA/videos"> kai cami coc </a> por la edicion de videos</p>
-				<p>Designed by Micro (microa4@gmail.com)</p>
-				<p>Copyright ® 2017 Primeros coc</p>
+				<img src="../images/imagenes/bottomcentral.png" alt="" />
 			</div>
-			<div id="copyright"> 
-			</div>
+			<!--centro2-->
 		</div>
+		<!--main2-->
+		<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div>
+	</div>
+	<!--contenedor-->
+	<div id="pie">
+		<div id="diseño">
+			<p>Gracias a <a href="https://www.youtube.com/channel/UCAfuTUdmRn0PLtN3uwtIRPA/videos"> kai cami coc </a>
+				por la edicion de videos</p>
+			<p>Designed by Micro (microa4@gmail.com)</p>
+			<p>Copyright ® 2017 Primeros coc</p>
+		</div>
+		<div id="copyright">
+		</div>
+	</div>
 </body>
+
 </html>
