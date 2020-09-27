@@ -29,6 +29,7 @@
 	<?php //var_dump($execute); 
 	?>
 </head>
+
 <body>
 	<div id="contenedor">
 		<div class="banner">
@@ -101,7 +102,7 @@
 								</td>
 							</tr>
 						</table>
-					<?php echo	"<table  >";
+						<?php echo	"<table  >";
 						if (isset($datog2["state"])) {
 							$estadog2 = $datog2["state"];
 							switch ($estadog2) {
@@ -124,7 +125,7 @@
 										$inicio = $hie . "" . $ii/*."".$si*/;
 										$iniciou = $hiu . "" . $ii/*."".$si*/;
 										$iniciom = $him . "" . $ii/*."".$si*/;
-									$esp = "esp";
+										$esp = "esp";
 										$usa = "usa";
 										$mex = "mex";
 										echo '<img src="../images/iconos/' . $esp . '.png" ; />';
@@ -181,7 +182,6 @@
 										echo $horamf->format('H:i ');
 									} //del if  
 									echo "</td>
-
 											</tr>
 											<tr>
 												<td></br>Participantes ";
@@ -206,7 +206,7 @@
 						</table>
 					</div>
 					<!--wari--> <br>
-			<!-- participantes pekes-->
+					<!-- participantes pekes-->
 					<div id="guerra">
 						<div class="warp">
 
@@ -243,12 +243,6 @@
 									</tr>
 								<?php } ?>
 							</table>
-
-
-
-
-
-
 							<table cellpadding="0">
 								<?php
 								error_reporting(E_ERROR | E_PARSE); //poner solo los errores que quieres que muestre se puede sumar: E_ERROR | E_WARNING | E_PARSE | E_NOTICE
@@ -262,8 +256,6 @@
 								<?php
 								foreach ($mienbrospk as $mienbropk) {
 								?>
-
-
 									<tr colspan="2">
 										<td style="height:170px;  " colspan="2"><?php $star = "starwar";
 																				$star0 = "starwar0";
@@ -288,10 +280,6 @@
 																						default:
 																							echo  '<img src="../images/iconos/' . $star0 . '.png" ; />';
 																					}
-
-
-
-
 																					if (isset($mienbropk["bestOpponentAttack"]["destructionPercentage"])) {
 																						$porcentagek = $mienbropk["bestOpponentAttack"]["destructionPercentage"];
 																					}
@@ -301,9 +289,6 @@
 																				} else {
 																					echo  '<img src="../images/iconos/' . $star . '.png" ; />';
 																				}
-
-
-
 																				if (isset($mienbropk["mapPosition"])) {
 																					echo  "</br>" . $mienbropk["mapPosition"];
 																				} ?>.<?php if (isset($mienbropk["name"])) {
@@ -362,12 +347,9 @@
 													echo '<img src="../images/th/' . $th2 . '.png" />';
 													break;
 											}
-
 											?>
 										</td>
 										<td>
-
-
 											<table class="atacks0" cellpadding="0" style=" width:105px; margin-left:-160px; margin-top:62px; position: relative;  ">
 												<?php
 												if (isset($mienbropk["attacks"])) {
@@ -408,7 +390,6 @@
 																if (isset($mienpk["stars"])) {
 																	$ataques = $mienpk["stars"];
 																}
-
 																$ata0 = "ata0";
 																$ata1 = "ata1";
 																$ata2 = "ata2";
@@ -446,14 +427,11 @@
 															}
 														}
 													}
-
 														?>
 														</td>
 													</tr>
 											</table>
 											<?php
-
-
 											?>
 										</td>
 									<?php 	} ?>
@@ -462,12 +440,6 @@
 							</table>
 						</div>
 						<!--warp-->
-
-
-
-
-
-
 						<div class="warp">
 							<table>
 								<?php if (isset($estadog2) && ($estadog2 == 'inWar')) {
@@ -535,9 +507,6 @@
 																						default:
 																							echo  '<img src="../images/iconos/' . $star0 . '.png" ; />';
 																					}
-
-
-
 																					if (isset($mienbropk2["bestOpponentAttack"]["destructionPercentage"])) {
 																						$porcentagek2 = $mienbropk2["bestOpponentAttack"]["destructionPercentage"];
 																					}
@@ -547,10 +516,6 @@
 																				} else {
 																					echo  '<img src="../images/iconos/' . $star . '.png" ; />';
 																				}
-
-
-
-
 																				if (isset($mienbropk2["mapPosition"])) {
 																					echo  "</br>" . $mienbropk2["mapPosition"];
 																				} ?>.<?php if (isset($mienbropk2["name"])) {
@@ -613,7 +578,6 @@
 											?>
 										</td>
 										<td>
-
 											<?php
 											?>
 											<table cellpadding="0" style=" width:105px; margin-left:-160px; margin-top:62px; position: relative; ">
@@ -698,8 +662,6 @@
 													</tr>
 											</table>
 											<?php
-
-
 											?></td>
 									<?php 	} ?>
 									</tr>
@@ -711,75 +673,25 @@
 					<!--guerra-->
 				</div><br>
 				<!--guerrae-->
-
-
-
-
-
-
-
-
-
-
 				<img src="../images/imagenes/bottomcentral.png" alt="" />
-
 			</div>
 			<!--centro2-->
-
 		</div>
 		<!--main2-->
-
-
-
-
-
-
-
 	</div>
-
-
-
 	<div style="clear: both; height: 10px; overflow: hidden">&nbsp;</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</div>
 	<!--contenedor-->
-
 	<div id="pie">
-
 		<div id="diseño">
-
 			<p>Gracias a <a href="https://www.youtube.com/channel/UCAfuTUdmRn0PLtN3uwtIRPA/videos"> kai cami coc </a> por la edicion de videos</p>
-
 			<p>Designed by Micro (microa4@gmail.com)</p>
-
 			<p>Copyright ® 2017 Primeros coc</p>
-
 		</div>
-
 		<div id="copyright">
-
 		</div>
-
 	</div>
-
-
-
 	</div>
-
 </body>
 
 </html>

@@ -83,10 +83,10 @@
 									<td rowspan="11">
 										<!--Nivel:--><?php $copas = "copas"; //if (isset($dato["clanLevel"])){ echo $dato["clanLevel"];} 
 														?><br /><img src="<?php if (isset($dato["badgeUrls"]["medium"])) {
-																																								echo $dato["badgeUrls"]["medium"];
-																																							} ?>" alt="<?php if (isset($dato["name"])) {
-																																																															echo $dato["name"];
-																																																														}  ?>" /></td>
+																				echo $dato["badgeUrls"]["medium"];
+																			} ?>" alt="<?php if (isset($dato["name"])) {
+																							echo $dato["name"];
+																						}  ?>" /></td>
 									<td style="font-family: supercell;"><?php if (isset($dato["name"])) {
 																			echo  $dato["name"];
 																		} ?></td>
@@ -177,8 +177,8 @@
 												<td><img src="<?php if (isset($mienbro["league"]["iconUrls"]["tiny"])) {
 																	echo $mienbro["league"]["iconUrls"]["tiny"];
 																} ?>" alt="<?php if (isset($mienbro["league"]["name"])) {
-																																													echo $mienbro["league"]["name"];
-																																												}  ?>" /></td>
+																				echo $mienbro["league"]["name"];
+																			}  ?>" /></td>
 												<td class="exp"><?php if (isset($mienbro["expLevel"])) {
 																	echo $mienbro["expLevel"];
 																} ?></td>
@@ -213,10 +213,10 @@
 									<td rowspan="11">
 										<!--Nivel:--><?php $copas = "copas"; //if (isset($dato["clanLevel"])){ echo $dato["clanLevel"];} 
 														?><img src="<?php if (isset($dato["badgeUrls"]["medium"])) {
-																																						echo $dato["badgeUrls"]["medium"];
-																																					} ?>" alt="<?php if (isset($dato["name"])) {
-																																																														echo $dato["name"];
-																																																													}  ?>" /></td>
+																		echo $dato["badgeUrls"]["medium"];
+																	} ?>" alt="<?php if (isset($dato["name"])) {
+																					echo $dato["name"];
+																				}  ?>" /></td>
 									<td style="font-family: supercell;"><?php if (isset($dato["name"])) {
 																			echo  $dato["name"];
 																		} ?></td>
@@ -311,8 +311,8 @@
 												<td><img src="<?php if (isset($mienbro["league"]["iconUrls"]["tiny"])) {
 																	echo $mienbro["league"]["iconUrls"]["tiny"];
 																} ?>" alt="<?php if (isset($mienbro["league"]["name"])) {
-																																													echo $mienbro["league"]["name"];
-																																												}  ?>" /></td>
+																				echo $mienbro["league"]["name"];
+																			}  ?>" /></td>
 												<td class="exp"><?php if (isset($mienbro["expLevel"])) {
 																	echo $mienbro["expLevel"];
 																} ?></td>
@@ -369,13 +369,13 @@
 									?>
 											<tr>
 												<!-- <td><?php if (isset($mienbro["clanRank"])) {
-														// echo $mienbro["clanRank"];
-													} ?></td> -->
+																// echo $mienbro["clanRank"];
+															} ?></td> -->
 												<td><img src="<?php if (isset($mienbro["league"]["iconUrls"]["tiny"])) {
 																	echo $mienbro["league"]["iconUrls"]["tiny"];
 																} ?>" alt="<?php if (isset($mienbro["league"]["name"])) {
-																																													echo $mienbro["league"]["name"];
-																																												}  ?>" /></td>
+																				echo $mienbro["league"]["name"];
+																			}  ?>" /></td>
 												<td class="exp"><?php if (isset($mienbro["expLevel"])) {
 																	echo $mienbro["expLevel"];
 																} ?></td>
@@ -415,10 +415,10 @@
 									<td rowspan="11">
 										<!--Nivel:--><?php $copas = "copas"; //if (isset($dato["clanLevel"])){ echo $dato["clanLevel"];} 
 														?><img src="<?php if (isset($dato["badgeUrls"]["medium"])) {
-																																							echo $dato["badgeUrls"]["medium"];
-																																						} ?>" alt="<?php if (isset($dato["name"])) {
-																																																														echo $dato["name"];
-																																																													}  ?>" /></td>
+																		echo $dato["badgeUrls"]["medium"];
+																	} ?>" alt="<?php if (isset($dato["name"])) {
+																					echo $dato["name"];
+																				}  ?>" /></td>
 									<td style="font-family: supercell;"><?php if (isset($dato["name"])) {
 																			echo  $dato["name"];
 																		} ?></td>
@@ -511,8 +511,8 @@
 										<td><img src="<?php if (isset($mienbro["league"]["iconUrls"]["tiny"])) {
 															echo $mienbro["league"]["iconUrls"]["tiny"];
 														} ?>" alt="<?php if (isset($mienbro["league"]["name"])) {
-																																											echo $mienbro["league"]["name"];
-																																										}  ?>" /></td>
+																		echo $mienbro["league"]["name"];
+																	}  ?>" /></td>
 										<td class="exp"><?php if (isset($mienbro["expLevel"])) {
 															echo $mienbro["expLevel"];
 														} ?></td>
