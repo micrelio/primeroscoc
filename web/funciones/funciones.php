@@ -1,8 +1,9 @@
 <!-- var_dump($datocg); para ver lo que devuelve un array -->
 <!-- PRIMEROS:#8VVJCY9R-->
 <?php
+$pass= "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg";
 	$clantag = "#8VVJCY9R";
-	$token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg";
+	$token = $pass;
 	$url = "https://api.clashofclans.com/v1/clans/" . urlencode($clantag);
 	$ch = curl_init($url);
 	$headr = array();
@@ -22,7 +23,7 @@
 <!-- PRIMEROS GUERRA ACTUAL-->
  <?php
 // Replace with the token you get from the site, see more at http://jwt.io
-	$accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg';
+	$accesstoken = $pass;
 	//Use the first url to test your Server's IP adress and cURL function
 	$url = 'https://ifconfig.io';
 	$url = 'https://api.clashofclans.com/v1/clans/%238VVJCY9R/currentwar'/*https://api.clashofclans.com/v1/currentwar*/;
@@ -48,7 +49,7 @@
 <!-- PRIMEROS REGISTRO GUERRA-->
 <?php
 	// Replace with the token you get from the site, see more at http://jwt.io
-	$accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg';
+	$accesstoken = $pass;
 	//Use the first url to test your Server's IP adress and cURL function
 	$url = 'https://ifconfig.io';
 	$url = 'https://api.clashofclans.com/v1/clans/%238VVJCY9R/warlog'/*?limit=20 para el limite de gerras mostradas*/;
@@ -74,7 +75,7 @@
 <!-- PEKEPRIMEROS :#RCOLLOQ8-->		 
 <?php
 	$clantag = "#RCOLLOQ8";
-	$token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg";
+	$token = $pass;
 	$url = "https://api.clashofclans.com/v1/clans/" . urlencode($clantag);
 	$ch = curl_init($url);
 	$headr = array();
@@ -96,7 +97,7 @@
 <?php
 	date_default_timezone_set('Europe/Amsterdam');
 	// Replace with the token you get from the site, see more at http://jwt.io
-	$accesstoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjM2NmJhZTg3LWIyNWItNGE4Zi05ZTRhLWJjODRiMzY3ZTUyNiIsImlhdCI6MTYwMTEzODc0MSwic3ViIjoiZGV2ZWxvcGVyLzc1YTAzMTdhLThkYWItMmQ2OC04Mzk1LWFiMmE2NTk5NmQyMyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjIxMy4xNjIuMjAwLjIyNiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.TYIG6bhiKtXet9GKH2Qq1oG0EPIbbmibUnOXeqw7Wbw4wgtYk446JfjdcxCsRyaYYHe_fFaSiHcaT0C6sLK3dg';
+	$accesstoken = $pass;
 	//Use the first url to test your Server's IP adress and cURL function
 	$url = 'https://ifconfig.io';
 	$url = 'https://api.clashofclans.com/v1/clans/%23RCOLLOQ8/currentwar'/*https://api.clashofclans.com/v1/currentwar*/;
