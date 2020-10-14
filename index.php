@@ -10,7 +10,7 @@
 	<meta name="copyright" content="micro" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
 	<meta name="twitter:site" content="@CocPrimeros">
-	<link rel="alternate" hreflang="es" href="https://primeroscoc.com/" />
+	<link rel="alternate" hreflang="es" href="https://primeroscoc.titaniumgamers.com/" />
 	<meta name="Title" content="clan español clash of clans primeros coc" />
 	<meta name="Description" content="clash of clans clan primeros coc, clan adulto, el mejor clan para divertirse. En el clan primeroscoc se juega a Clash of Clans. En español, cocprimeros, #8VVJCY9R, 8VVJCY9R, primeroscoc, juego" />
 	<meta name="Keywords" content="clash of clans,  clan , primeros, coc,   #8VVJCY9R, primeroscoc." />
@@ -18,7 +18,7 @@
 	<meta name="Distribution" content="Global" />
 	<meta name="googlebot" content="index, follow">
 	<meta name="robots" content="index,follow">
-	<meta property="og:url" content="https://primeroscoc.com/">
+	<meta property="og:url" content="https://primeroscoc.titaniumgamers.com/">
 	<meta property="og:site_name" content="CLAN PRIMEROS | Clash of Clans">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="web/funciones/funciones.js"></script>
