@@ -505,7 +505,7 @@ nav .active {
 }
 /*===================================*\
 			ajustes a pantallas
-	\*===================================*/
+\*===================================*/
 /* Para 320px */
 @media only screen and (max-width: 340px) and (min-width: 5px) {
   #contenedor {
@@ -813,11 +813,9 @@ nav .active {
 	max-width:980px;
 	}*/
 }
-
 /*===================================*\		
 	      cajon principal paginas secundarias
-		\*===================================*/
-
+\*===================================*/
 #contenedor2 {
   width: 90%;
   margin: 0 auto;
@@ -951,7 +949,6 @@ nav .active {
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
-
 @-moz-keyframes parpadeo {
   0% {
     opacity: 1;
@@ -963,7 +960,6 @@ nav .active {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes parpadeo {
   0% {
     opacity: 1;
@@ -1012,7 +1008,6 @@ nav .active {
   width: 35px;
   margin: 0 auto;
 }
-
 .aldea:hover {
   opacity: 0.5;
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
@@ -1201,7 +1196,6 @@ transition:transform 0.5s ease-out;*/ /* nevo comparar con este va con otro no*/
 	text-shadow: 0.1em 0.1em o;
 	color:orange;	*/
 }
-
 #rep {
   margin-bottom: 25px;
   position: relative;
@@ -1210,7 +1204,6 @@ transition:transform 0.5s ease-out;*/ /* nevo comparar con este va con otro no*/
   height: 0;
   overflow: hidden;
 }
-
 #rep iframe,
 #rep object,
 #rep embed {
