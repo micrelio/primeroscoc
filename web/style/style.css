@@ -1138,24 +1138,25 @@ nav .active {
 	transition:transform 0.5s ease-out;*/
 }
 #youtube h2 {
-  /*background-color:none;
-				width:400px;
-				height:25px;
-				margin: 0px;
-				padding: 0px;
-					font-size:15px;
-					-webkit-text-stroke: 1.5px black;
-				text-shadow: 0.1em 0.1em gray;	
-				color:white;
-				margin-left:25px;
-				margin-right:25px;
-				line-height:125%;
-				display:block!important;
--webkit-transition:-webkit-transform 0.5s ease-out;
--moz-transition:-moz-transform 0.5s ease-out;
--o-transition:-o-transform 0.5s ease-out;
--ms-transition:-ms-transform 0.5s ease-out;
-transition:transform 0.5s ease-out;*/ /* nevo comparar con este va con otro no*/
+  /* background-color: none;
+  width: 400px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  -webkit-text-stroke: 1.5px black;
+  text-shadow: 0.1em 0.1em gray;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 125%;
+  display: block !important;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -moz-transition: -moz-transform 0.5s ease-out;
+  -o-transition: -o-transform 0.5s ease-out;
+  -ms-transition: -ms-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;  */
+  /* nevo comparar con este va con otro no*/
   cursor: pointer;
   margin-left: 10px;
   font-size: 20px;
