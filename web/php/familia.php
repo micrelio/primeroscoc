@@ -11,7 +11,6 @@
 	<!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">-->
 	<meta property="og:url" content="https://primeroscoc.titaniumgamers.com/">
 	<meta property="og:site_name" content="CLAN PRIMEROS | Clash of Clans">
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="../funciones/funciones.js"></script>
 	<?php include('../funciones/funciones.php'); ?>
